@@ -18,6 +18,45 @@ Installation
 
 Be aware, the [installation](https://docs.facefusion.io/installation) needs technical skills and is not recommended for beginners. In case you are not comfortable using a terminal, our [Windows Installer](https://buymeacoffee.com/henryruhs/e/251939) can have you up and running in minutes.
 
+Installation for Developers
+------------
+
+This section is created for whom who has basic understanding of virtual environment and want to test it on local machine.
+
+Please follow this steps (it's currently work in Python 3.9 only)
+
+It's recommended to use a virtual environment to manage your project's dependencies. You can create one using the `venv` module:
+
+```bash
+python3 -m venv venv
+```
+
+Activate the virtual environment using the following command:
+
+- On **Windows**:
+
+  ```bash
+  .\venv\Scripts\activate
+  ```
+
+- On **macOS/Linux**:
+
+  ```bash
+  source venv/bin/activate
+  ```
+
+With the virtual environment activated, install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Now, you can run your application using the following command:
+
+```bash
+python run.py
+```
+
 
 Usage
 -----
